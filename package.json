@@ -1,13 +1,13 @@
 {
-  "name": "candour-fluid-steps-converter",
-  "version": "1.0.2",
+  "name": "candour-fluid-steps",
+  "version": "1.0.3",
   "main": "dist/index.js",
   "author": "Domas Bitvinskas <domas.bitvinskas@me.com>",
   "license": "MIT",
-  "homepage": "https://github.com/candourpro/fluid-steps-converter",
+  "homepage": "https://github.com/candourpro/fluid-steps",
   "repository": {
     "type": "git",
-    "url": "git://github.com/candourpro/fluid-steps-converter.git"
+    "url": "git://github.com/candourpro/fluid-steps.git"
   },
   "scripts": {
     "build": "BABEL_ENV=production babel index.js -d dist"
