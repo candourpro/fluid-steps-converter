@@ -917,10 +917,10 @@ candour-fluid@^1.0.11:
   dependencies:
     number-parsing "^0.3.0"
 
-candour-step@^2.0.1:
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/candour-step/-/candour-step-2.0.1.tgz#c423cde63d1f69f2642b35d676e042b36c054719"
-  integrity sha512-izGfJ3jwNmoVMbpW0TyQffUIcyx0gG2LGcSpmNzeN8jq5CocDpIR8CYGk5O6SBSa31ERm9OpkRk+y8WMBlZwnQ==
+candour-step@^2.0.2:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/candour-step/-/candour-step-2.0.2.tgz#83099db77beabe40efd03d0483bc36db35d8e533"
+  integrity sha512-7109OgoQTcMuenHpIltD2l/yOhaFGKlj1F38Rg+8EUJm04GD2/Q+Fhyzei9rHwMH4IrSFTnG55FHT5P05U9PHg==
   dependencies:
     candour-fluid "^1.0.11"
 
