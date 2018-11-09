@@ -2,26 +2,6 @@
 # yarn lockfile v1
 
 
-"@candour/fluid@^1.0.9":
-  version "1.0.9"
-  resolved "https://registry.yarnpkg.com/@candour/fluid/-/fluid-1.0.9.tgz#6d966b1c290e9de164d4e334b7b7573d77026780"
-  integrity sha1-bZZrHCkOneFk1OM0t7dXPXcCZ4A=
-  dependencies:
-    babel-cli "^6.26.0"
-    babel-preset-env "^1.6.1"
-    babel-preset-minify "^0.3.0"
-    number-parsing "^0.3.0"
-
-"@candour/step@^2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@candour/step/-/step-2.0.0.tgz#fc21c9afb6acd3519ab7af12312f241418895c90"
-  integrity sha512-6wfCcmHQ1cjZNbhh5CggAD6mFAgbjHyPvXy65ws7hkjQumPnZTbk+EE7qza/Z9KBDh/HPinwic8+XFb/Sr/gDA==
-  dependencies:
-    "@candour/fluid" "^1.0.9"
-    babel-cli "^6.26.0"
-    babel-preset-env "^1.6.1"
-    babel-preset-minify "^0.3.0"
-
 abbrev@1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/abbrev/-/abbrev-1.1.1.tgz#f8f2c887ad10bf67f634f005b6987fed3179aac8"
@@ -929,6 +909,20 @@ cache-base@^1.0.1:
     to-object-path "^0.3.0"
     union-value "^1.0.0"
     unset-value "^1.0.0"
+
+candour-fluid@^1.0.11:
+  version "1.0.11"
+  resolved "https://registry.yarnpkg.com/candour-fluid/-/candour-fluid-1.0.11.tgz#556021509842e45a9e69e93d0058ef5b7e392b13"
+  integrity sha512-sPKKFHjuLyGZUtRoA91KmgWFCTCR97yxlwPFH0gHUAcQZPnyiNlmIJ155Mw2gIePbsIOTSX1Yh0DOW/RMGxAXw==
+  dependencies:
+    number-parsing "^0.3.0"
+
+candour-step@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/candour-step/-/candour-step-2.0.1.tgz#c423cde63d1f69f2642b35d676e042b36c054719"
+  integrity sha512-izGfJ3jwNmoVMbpW0TyQffUIcyx0gG2LGcSpmNzeN8jq5CocDpIR8CYGk5O6SBSa31ERm9OpkRk+y8WMBlZwnQ==
+  dependencies:
+    candour-fluid "^1.0.11"
 
 caniuse-lite@^1.0.30000844:
   version "1.0.30000907"
