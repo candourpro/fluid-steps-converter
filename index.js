@@ -1,6 +1,6 @@
 import _ from 'lodash'
 import isNumber from 'is-number'
-import step from '@candour/step'
+import step from 'candour-step'
 
 const allSides = (name) => [
   name,
