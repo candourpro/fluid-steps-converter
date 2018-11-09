@@ -1,13 +1,1 @@
-import _ from 'lodash';
-import isNumber from 'is-number';
-import step from '@candour/step';
-
-const allSides = name => [name, `${name}Top`, `${name}Right`, `${name}Bottom`, `${name}Left`];
-
-const SIZE_PROPS = [...allSides('padding'), ...allSides('margin'), 'fontSize', 'width', 'height', 'borderWidth'];
-
-export default {
-  name: 'fluidSteps',
-  match: (_config, value, key) => value && isNumber(value) && _.includes(SIZE_PROPS, key),
-  value: (_config, value) => step(_.toNumber(value))
-};
+'use strict';Object.defineProperty(exports,'__esModule',{value:!0});var _lodash=require('lodash'),_lodash2=_interopRequireDefault(_lodash),_isNumber=require('is-number'),_isNumber2=_interopRequireDefault(_isNumber),_step=require('@candour/step'),_step2=_interopRequireDefault(_step);function _interopRequireDefault(a){return a&&a.__esModule?a:{default:a}}function _toConsumableArray(a){if(Array.isArray(a)){for(var b=0,c=Array(a.length);b<a.length;b++)c[b]=a[b];return c}return Array.from(a)}var allSides=function(a){return[a,a+'Top',a+'Right',a+'Bottom',a+'Left']},SIZE_PROPS=[].concat(_toConsumableArray(allSides('padding')),_toConsumableArray(allSides('margin')),['fontSize','width','height','borderWidth']);exports.default={name:'fluidSteps',match:function match(a,b,c){return b&&(0,_isNumber2.default)(b)&&_lodash2.default.includes(SIZE_PROPS,c)},value:function value(a,b){return(0,_step2.default)(_lodash2.default.toNumber(b))}};
