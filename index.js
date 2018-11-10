@@ -2,12 +2,12 @@ import _ from 'lodash'
 import isNumber from 'is-number'
 import step from 'candour-step'
 
-const allSides = (name) => [
-  name,
-  `${name}Top`,
-  `${name}Right`,
-  `${name}Bottom`,
-  `${name}Left`,
+const allSides = (prefix, suffix = '') => [
+  `${prefix}${suffix}`,
+  `${prefix}Top${suffix}`,
+  `${prefix}Right${suffix}`,
+  `${prefix}Bottom${suffix}`,
+  `${prefix}Left${suffix}`,
 ]
 
 const SIZE_PROPS = [
@@ -16,7 +16,9 @@ const SIZE_PROPS = [
   'fontSize',
   'width',
   'height',
-  'borderWidth',
+  ...allSides('border', 'Width'),
+  'maxWidth',
+  'maxHeight',
 ]
 
 export default {
