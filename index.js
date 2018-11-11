@@ -19,6 +19,12 @@ const SIZE_PROPS = [
   ...allSides('border', 'Width'),
   'maxWidth',
   'maxHeight',
+  'top',
+  'right',
+  'bottom',
+  'left',
+  'outlineWidth',
+  'letterSpacing',
 ]
 
 export default {
