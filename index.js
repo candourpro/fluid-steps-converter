@@ -24,7 +24,7 @@ const SIZE_PROPS = [
 export default {
   name: 'fluidSteps',
   match: (_config, value, key) => (
-    value && isNumber(value) && _.includes(SIZE_PROPS, key)
+    value && (isNumber(value) || value === true) && _.includes(SIZE_PROPS, key)
   ),
-  value: (_config, value) => step(_.toNumber(value)),
+  value: (_config, value) => step(_.toNumber(value === true ? 1 : value)),
 }
