@@ -910,19 +910,17 @@ cache-base@^1.0.1:
     union-value "^1.0.0"
     unset-value "^1.0.0"
 
-candour-fluid@^1.0.11:
-  version "1.0.11"
-  resolved "https://registry.yarnpkg.com/candour-fluid/-/candour-fluid-1.0.11.tgz#556021509842e45a9e69e93d0058ef5b7e392b13"
-  integrity sha512-sPKKFHjuLyGZUtRoA91KmgWFCTCR97yxlwPFH0gHUAcQZPnyiNlmIJ155Mw2gIePbsIOTSX1Yh0DOW/RMGxAXw==
-  dependencies:
-    number-parsing "^0.3.0"
+candour-fluid@^1.0.12:
+  version "1.0.12"
+  resolved "https://registry.yarnpkg.com/candour-fluid/-/candour-fluid-1.0.12.tgz#44d41fc70bf3aa30f8b061134683191ead41c7c3"
+  integrity sha512-seo/SoFqGpd71iMYHQj/EUgvyH4PlU5KmMWxpbl2/qN7xe6PuuqpdS1bEqgcZN0BYIbGgK5EcVxw/Ih/QM6mRg==
 
-candour-step@^2.0.2:
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/candour-step/-/candour-step-2.0.2.tgz#83099db77beabe40efd03d0483bc36db35d8e533"
-  integrity sha512-7109OgoQTcMuenHpIltD2l/yOhaFGKlj1F38Rg+8EUJm04GD2/Q+Fhyzei9rHwMH4IrSFTnG55FHT5P05U9PHg==
+candour-step@^2.0.3:
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/candour-step/-/candour-step-2.0.3.tgz#7647a2c533238a5fa46a6d6a538512ef9c165814"
+  integrity sha512-jMM6CVeWs3NqgwpitQGqqv1udTKmwQJCn0SWb1D9r+TmOlsIQ9byqln4akfmYeRSbakCADTNy4Ja+xBf1Pe7ag==
   dependencies:
-    candour-fluid "^1.0.11"
+    candour-fluid "^1.0.12"
 
 caniuse-lite@^1.0.30000844:
   version "1.0.30000907"
@@ -1611,11 +1609,6 @@ lodash.some@^4.6.0:
   resolved "https://registry.yarnpkg.com/lodash.some/-/lodash.some-4.6.0.tgz#1bb9f314ef6b8baded13b549169b2a945eb68e4d"
   integrity sha1-G7nzFO9ri63tE7VJFpsqlF62jk0=
 
-lodash@^3.8.0:
-  version "3.10.1"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-3.10.1.tgz#5bf45e8e49ba4189e17d482789dfd15bd140b7b6"
-  integrity sha1-W/Rejkm6QYnhfUgnid/RW9FAt7Y=
-
 lodash@^4.17.11, lodash@^4.17.4:
   version "4.17.11"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.11.tgz#b39ea6229ef607ecd89e2c8df12536891cac9b8d"
@@ -1824,13 +1817,6 @@ number-is-nan@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/number-is-nan/-/number-is-nan-1.0.1.tgz#097b602b53422a522c1afb8790318336941a011d"
   integrity sha1-CXtgK1NCKlIsGvuHkDGDNpQaAR0=
-
-number-parsing@^0.3.0:
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/number-parsing/-/number-parsing-0.3.0.tgz#60fa2e5b097aff54762637be33ac96ca218a17bf"
-  integrity sha1-YPouWwl6/1R2Jje+M6yWyiGKF78=
-  dependencies:
-    lodash "^3.8.0"
 
 object-assign@^4.1.0:
   version "4.1.1"
