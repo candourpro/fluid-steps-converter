@@ -29,8 +29,8 @@ const SIZE_PROPS = [
   'letterSpacing',
 ]
 
-const stepOpts = ({ fluidSteps }) => _.defaultsDeep(
-  _.cloneDeep(fluidSteps),
+const stepOpts = (config) => _.defaultsDeep(
+  _.cloneDeep(config),
   {
     min: 14,
     max: 18,
@@ -39,12 +39,12 @@ const stepOpts = ({ fluidSteps }) => _.defaultsDeep(
   },
 )
 
-export default {
+export default (config) => ({
   name: 'fluidSteps',
-  match: (_config, value, key) => (
+  match: (_theme, value, key) => (
     value && (isNumber(value) || value === true) && _.includes(SIZE_PROPS, key)
   ),
-  value: (config, value) => (
+  value: (_theme, value) => (
     step(_.toNumber(value === true ? 1 : value), stepOpts(config))
   ),
-}
+})

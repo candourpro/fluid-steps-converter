@@ -1,6 +1,6 @@
 {
   "name": "candour-fluid-steps",
-  "version": "1.4.0",
+  "version": "2.0.0",
   "main": "dist/index.js",
   "author": "Domas Bitvinskas <domas.bitvinskas@me.com>",
   "license": "MIT",
