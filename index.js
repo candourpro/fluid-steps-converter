@@ -27,6 +27,7 @@ const SIZE_PROPS = [
   'left',
   'outlineWidth',
   'letterSpacing',
+  'backgroundSize',
 ]
 
 const stepOpts = (config) => _.defaultsDeep(
